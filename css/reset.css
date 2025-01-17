@@ -33,6 +33,7 @@ h6,
 p {
   font-weight: 400;
 }
+
 /* set up body */
 body {
   font-family: var(--ff-sans-normal);
@@ -41,6 +42,9 @@ body {
   background-color: hsl(var(--clr-dark));
   line-height: 1.5;
   min-height: 100vh;
+  display: grid;
+  grid-template-rows: min-content 1fr;
+  overflow-x: hidden;
 }
 
 /* make images easier to work with */
